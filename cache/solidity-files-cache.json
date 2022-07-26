@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/nicolascinzer/hardhat-fcc/hardhatLottery/contracts/Raffle.sol": {
-      "lastModificationDate": 1658451664322,
-      "contentHash": "521b685b6826062a648379b49f2ee911",
+      "lastModificationDate": 1658798979715,
+      "contentHash": "2cb2e46b7f2b1b715f841080e02d36da",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -261,10 +261,10 @@
         "LinkTokenInterface"
       ]
     },
-    "/home/nicolascinzer/hardhat-fcc/hardhatLottery/contracts/test/VRFCoordinatorV2.sol": {
-      "lastModificationDate": 1658454797712,
+    "/home/nicolascinzer/hardhat-fcc/hardhatLottery/contracts/test/VRFCoordinatorV2Mock.sol": {
+      "lastModificationDate": 1658455286052,
       "contentHash": "979e8aac295e7a617e03da6676e81ebf",
-      "sourceName": "contracts/test/VRFCoordinatorV2.sol",
+      "sourceName": "contracts/test/VRFCoordinatorV2Mock.sol",
       "solcConfig": {
         "version": "0.8.9",
         "settings": {
