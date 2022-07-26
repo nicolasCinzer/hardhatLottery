@@ -17,7 +17,7 @@ error Raffle__UpkeepNotNeeded(uint256 currentBalance, uint256 numPlayers, uint25
     @dev This implement CHAINLINK VRF and CHAINLINK KEEPERS
  */
 
-abstract contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
+contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
     /*  TYPE DECLARATIONS  */
     enum RaffleState {
         OPEN, // uint256 0 = OPEN (Under the hood)
@@ -87,9 +87,9 @@ abstract contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
 
     /*  FUNCTIONS  */
     constructor(
-        address vrfCoordinatorV2, //Contract
+        address vrfCoordinatorV2, 
         uint256 entranceFee,
-        bytes32 gasLane,
+        bytes32 gasLane, //keyHash
         uint64 subscriptionId,
         uint32 callbackGasLimit,
         uint256 interval
@@ -224,5 +224,9 @@ abstract contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
 
     function getRequestConfirmation() public pure returns (uint256) {
         return REQUEST_CONFIRMATIONS;
+    }
+
+    function getInterval() public view returns (uint256) {
+        return i_interval;
     }
 }
