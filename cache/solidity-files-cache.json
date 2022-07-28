@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/nicolascinzer/hardhat-fcc/hardhatLottery/contracts/Raffle.sol": {
-      "lastModificationDate": 1658798979715,
-      "contentHash": "2cb2e46b7f2b1b715f841080e02d36da",
+      "lastModificationDate": 1658892689775,
+      "contentHash": "8720bc3db0a374e7b01d404bde90635a",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
         "version": "0.8.9",
